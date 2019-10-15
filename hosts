@@ -3,7 +3,7 @@
 # this is your main nagios server and
 # where ansible will deploy it.
 [nagios]
-host-01
+172.31.47.111
 
 # use this for generic Linux servers
 [servers]
@@ -26,7 +26,7 @@ host-01
 # see group_vars/all.yml and configure values if using
 # a reverse proxy like nginx
 [jenkins]
-
+172.31.42.203
 # icmp and SSH checks only, see the README
 # for correct syntax as you'll also need ip address
 # e.g. hostname
