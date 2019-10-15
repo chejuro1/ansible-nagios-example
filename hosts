@@ -3,7 +3,6 @@
 # this is your main nagios server and
 # where ansible will deploy it.
 [nagios]
-172.31.92.51
 172.31.42.203
 
 # use this for generic Linux servers
